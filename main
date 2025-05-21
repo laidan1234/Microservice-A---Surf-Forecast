@@ -1,0 +1,20 @@
+import time
+
+def main():
+    file_regional_forecast_srv = "regional_forecast_service.txt"
+
+    while True:
+        user_input = input("Enter a region: ")
+        if user_input != "":
+            regional_forecast_pipe = open(file_regional_forecast_srv, "w+")
+            regional_forecast_pipe.write(user_input)
+            regional_forecast_pipe.close()
+            time.sleep(1)
+            regional_forecast_pipe = open(file_regional_forecast_srv, "r")
+            forecast = regional_forecast_pipe.readline()
+            regional_forecast_pipe.close()
+            print(forecast)
+    
+if __name__ == "__main__":
+    main()
+    

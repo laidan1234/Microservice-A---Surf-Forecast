@@ -1,0 +1,1 @@
+Air temperature: 75, Water Temperature: 64, Average Wave Height: 2.3, Windspeed: 5
