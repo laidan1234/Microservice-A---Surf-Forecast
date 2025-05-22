@@ -27,4 +27,4 @@ The above call opens the text and reads the microservice's output from it.
 
 ## UML Diagram
 The below diagram provides a graphical representation of how the microservice and the main program interact through the text file.
-![](Sprint 1 - Frame 1.jpg)
+![Sprint 1 - Frame 1.jpg](https://github.com/laidan1234/Microservice-A---Surf-Forecast/blob/main/Sprint%201%20-%20Frame%201.jpg)
