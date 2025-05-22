@@ -24,3 +24,7 @@ forecast = regional_forecast_pipe.readline()
 regional_forecast_pipe.close()
 ```
 The above call opens the text and reads the microservice's output from it.
+
+## UML Diagram
+The below diagram provides a graphical representation of how the microservice and the main program interact through the text file.
+![](Sprint 1 - Frame 1.jpg)
